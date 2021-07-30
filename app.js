@@ -19,7 +19,7 @@ const methodOverride = require('method-override');
 // koneksi Database
 // import mongoose
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://rafsanjaniRahadi:admincontrol@staycation1.sfykn.mongodb.net/db_staycation?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://rafsanjaniRahadi:controlstaycation@staycation1.sfykn.mongodb.net/db_staycation?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
