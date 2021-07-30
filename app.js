@@ -4,6 +4,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+const cors = require("cors");
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
@@ -15,6 +17,8 @@ const flash = require('connect-flash');
 
 // methode override
 const methodOverride = require('method-override');
+
+
 
 // koneksi Database
 // import mongoose
@@ -73,5 +77,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+app.use(cors());
 
 module.exports = app;
