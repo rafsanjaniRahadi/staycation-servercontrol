@@ -84,11 +84,11 @@ module.exports = {
       const testimonial = {
         _id: "asd1293uasdads1",
         imageUrl: "images/testimonial1.jpg",
-        name: "Happy Family",
+        name: "Dita Leni Rafia",
         rate: 4.55,
-        content: "What a great trip with my family and I should try again next time soon ...",
-        familyName: "Angga",
-        familyOccupation: "Product Designer"
+        content: "I can get diferent tour",
+        familyName: "Rans",
+        familyOccupation: "Pengerajin sendal"
       }
 
       res.status(200).json({
