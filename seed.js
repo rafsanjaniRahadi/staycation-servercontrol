@@ -1066,12 +1066,12 @@ var data = [
         username: 'admin',
         password: 'rahasia',
       },
-      // {
-      //   _id: mongoose.Types.ObjectId('5e96cbe292b97300fc903346'),
-      //   username: 'superadmin',
-      //   password: 'rahasia',
-      //   role: 'admin'
-      // },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc903346'),
+        username: 'superadmin',
+        password: 'rahasia',
+        role: 'admin'
+      },
     ]
   }
 ];
